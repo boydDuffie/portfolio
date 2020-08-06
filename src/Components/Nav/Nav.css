@@ -1,0 +1,22 @@
+.navbar-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'mascots . links';
+}
+
+.mascots {
+  grid-area: mascots;
+}
+
+.flex-container {
+  grid-area: links;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-align: center;
+}
