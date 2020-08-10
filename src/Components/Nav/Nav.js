@@ -11,7 +11,7 @@ export const Nav = (props) => {
         <img />
       </div>
       <nav className="flex-container">
-        <a className="home" href="/">
+        <a className="home" href="#home">
           Home
         </a>
         <a className="about" href="#about">

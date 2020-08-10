@@ -1,0 +1,21 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    '. . .'
+    '. content .';
+  height: 100vh;
+}
+
+.home-content {
+  grid-area: 'content';
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title-box {
+  text-align: center;
+}

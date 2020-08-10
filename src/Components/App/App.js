@@ -10,12 +10,12 @@ import { ContactContent } from '../ContactContent/ContactContent';
 export const App = () => {
   return (
     <div className="page-container">
-      <Nav />
-      <ThemePicker />
       <HomeContent />
-      <AboutContent id="about" />
-      <WorkContent id="work" />
-      <ContactContent id="contact" />
+      <ThemePicker />
+      <Nav />
+      <AboutContent />
+      <WorkContent />
+      <ContactContent />
     </div>
   );
 };
