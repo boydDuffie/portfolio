@@ -1,0 +1,38 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: '. content .';
+  height: 100vh;
+}
+
+.about-content {
+  grid-area: 'content';
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.headshot {
+  background-image: url('./headshot.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 60%;
+  right: 12.5vw;
+  top: 140vh;
+  z-index: -1;
+}

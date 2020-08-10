@@ -3,6 +3,9 @@
   grid-template-columns: 1fr 2fr 2fr;
   grid-template-rows: auto;
   grid-template-areas: 'mascots . links';
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .mascots {
