@@ -4,6 +4,12 @@ div.image {
   background-repeat: no-repeat;
 }
 
+div.bg-image {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 a {
   text-decoration: none;
   text-align: center;
@@ -13,4 +19,9 @@ h1,
 h2,
 h3 {
   font-weight: normal;
+}
+
+.main-content {
+  position: relative;
+  z-index: 5;
 }

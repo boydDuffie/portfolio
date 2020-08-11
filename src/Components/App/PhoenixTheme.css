@@ -27,6 +27,10 @@ h3.phoenix {
   color: #f2db2e;
 }
 
+.navbar-grid.phoenix a:hover {
+  color: #fff;
+}
+
 .menu-label.phoenix {
   color: #f2db2e;
 }
@@ -44,10 +48,14 @@ h3.phoenix {
   padding: 0.5vw;
 }
 
-.home-container.phoenix {
+.home-background.phoenix {
   background-image: linear-gradient(to bottom, #7e6147, #f54b22);
 }
 
 .about-container h1.phoenix {
   color: #ffab24;
+}
+
+.home-mascot.phoenix {
+  background-image: url('../../Mascots/Phoenix.svg');
 }

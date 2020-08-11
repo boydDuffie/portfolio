@@ -27,6 +27,10 @@ h3.kraken {
   color: #8c0d2f;
 }
 
+.navbar-grid.kraken a:hover {
+  color: #fff;
+}
+
 .menu-label.kraken {
   color: #011526;
 }
@@ -44,7 +48,7 @@ h3.kraken {
   padding: 0.5vw;
 }
 
-.home-container.kraken {
+.home-background.kraken {
   background-image: linear-gradient(to bottom, #6fb1bf, #011526);
 }
 

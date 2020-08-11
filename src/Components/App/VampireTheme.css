@@ -27,6 +27,10 @@ h3.vampire {
   color: #cc1818;
 }
 
+.navbar-grid.vampire a:hover {
+  color: #fff;
+}
+
 .menu-label.vampire {
   color: #fff;
 }
@@ -44,7 +48,7 @@ h3.vampire {
   padding: 0.5vw;
 }
 
-.home-container.vampire {
+.home-background.vampire {
   background-image: linear-gradient(to bottom, #4d3c6b, #3c3c3c);
 }
 

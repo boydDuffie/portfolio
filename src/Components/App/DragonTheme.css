@@ -27,6 +27,10 @@ h3.dragon {
   color: #61b88a;
 }
 
+.navbar-grid.dragon a:hover {
+  color: #fff;
+}
+
 .menu-label.dragon {
   color: #475767;
 }
@@ -44,7 +48,7 @@ h3.dragon {
   padding: 0.5vw;
 }
 
-.home-container.dragon {
+.home-background.dragon {
   background-image: linear-gradient(to bottom, #9f74b8, #61b88a);
 }
 
@@ -54,4 +58,8 @@ h3.dragon {
 
 .title-box.dragon h1 {
   font-weight: bold;
+}
+
+.home-mascot.dragon {
+  background-image: url('../../Mascots/Dragon.png');
 }

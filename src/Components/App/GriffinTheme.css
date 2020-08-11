@@ -27,6 +27,10 @@ h3.griffin {
   color: #d9bd7c;
 }
 
+.navbar-grid.griffin a:hover {
+  color: #fff;
+}
+
 .menu-label.griffin {
   color: #d9bd7c;
 }
@@ -44,14 +48,26 @@ h3.griffin {
   padding: 0.5vw;
 }
 
-.home-container.griffin {
+.home-background.griffin {
   background-image: linear-gradient(to bottom, #734014, #a6780c);
 }
 
 .title-box.griffin h1 {
   font-weight: bold;
+  font-size: 6vw;
+  margin: 0;
+}
+
+.title-box.griffin h2 {
+  font-size: 2vw;
+  margin: 0;
 }
 
 .about-content h1 {
   font-style: italic;
+}
+
+.home-mascot.griffin {
+  background-image: url('../../Mascots/Griffin.svg');
+  left: 5vw;
 }

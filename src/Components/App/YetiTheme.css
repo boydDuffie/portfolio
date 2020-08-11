@@ -27,6 +27,10 @@ h3.yeti {
   color: #f23f2e;
 }
 
+.navbar-grid.yeti a:hover {
+  color: #fff;
+}
+
 .menu-label.yeti {
   color: #fff;
 }
@@ -44,7 +48,7 @@ h3.yeti {
   padding: 0.5vw;
 }
 
-.home-container.yeti {
+.home-background.yeti {
   background-image: linear-gradient(to bottom, #b4dae1, #99aec5);
 }
 
@@ -54,4 +58,8 @@ h3.yeti {
 
 .about-content h1 {
   font-style: italic;
+}
+
+.home-mascot.yeti {
+  background-image: url('../../Mascots/Yeti.svg');
 }
