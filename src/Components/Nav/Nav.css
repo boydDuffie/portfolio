@@ -6,10 +6,18 @@
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  height: 12.5vh;
 }
 
 .mascots {
   grid-area: mascots;
+}
+
+.mascot-1 {
+}
+
+.mascot-2 {
+  transform: rotateZ(180deg);
 }
 
 .flex-container {

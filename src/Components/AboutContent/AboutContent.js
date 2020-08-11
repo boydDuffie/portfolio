@@ -27,7 +27,7 @@ export const AboutContent = (props) => {
         </div>
       </div>
       <div>
-        <div className="headshot"></div>
+        <div className="headshot image"></div>
       </div>
     </div>
   );

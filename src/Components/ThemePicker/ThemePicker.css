@@ -1,0 +1,20 @@
+.themepicker-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: '. content';
+  position: fixed;
+  width: 100vw;
+}
+
+.themepicker-flex-container {
+  grid-area: 'content';
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu {
+  font-style: italic;
+}
