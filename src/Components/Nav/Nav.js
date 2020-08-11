@@ -5,22 +5,22 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export const Nav = (props) => {
   return (
-    <div className="navbar-grid">
+    <div className={`navbar-grid ${props.theme}`}>
       <div className="mascots">
         <div className="mascot-1 image"></div>
         <div className="mascot-2 image"></div>
       </div>
-      <nav className="flex-container">
-        <a className="home" href="#home">
+      <nav className={`nav-flex-container ${props.theme}`}>
+        <a className={`home ${props.theme}`} href="#home">
           Home
         </a>
-        <a className="about" href="#about">
+        <a className={`about ${props.theme}`} href="#about">
           About
         </a>
-        <a className="work" href="#work">
+        <a className={`work ${props.theme}`} href="#work">
           Work
         </a>
-        <a className="contact" href="#contact">
+        <a className={`contact ${props.theme}`} href="#contact">
           Contact
         </a>
         <a

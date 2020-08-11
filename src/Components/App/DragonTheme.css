@@ -1,0 +1,57 @@
+p.dragon,
+a.dragon,
+select.dragon {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1.dragon,
+h2.dragon,
+h3.dragon {
+  font-family: 'Trade Winds', cursive;
+  color: #61b88a;
+}
+
+.main-content.dragon {
+  background-image: linear-gradient(to bottom, #61b88a, #9f74b8);
+}
+
+.bio.dragon {
+  background-color: rgba(157, 27, 71, 0.3);
+}
+
+.navbar-grid.dragon {
+  background-color: #475767;
+}
+
+.navbar-grid.dragon a {
+  color: #61b88a;
+}
+
+.menu-label.dragon {
+  color: #475767;
+}
+
+.menu.dragon {
+  color: #61b88a;
+  background-color: #475767;
+  border-color: #61b88a;
+  border-width: 0;
+}
+
+.title-box.dragon {
+  background-color: rgba(157, 27, 71, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.dragon {
+  background-image: linear-gradient(to bottom, #9f74b8, #61b88a);
+}
+
+.about-container h1.dragon {
+  color: #475767;
+}
+
+.title-box.dragon h1 {
+  font-weight: bold;
+}

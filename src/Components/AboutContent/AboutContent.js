@@ -3,12 +3,12 @@ import './AboutContent.css';
 
 export const AboutContent = (props) => {
   return (
-    <div className="about-container" id="about">
+    <div className={`about-container ${props.theme}`} id="about">
       <div></div>
       <div className="about-content">
         <div>
-          <h1>Hello, World!</h1>
-          <p className="bio">
+          <h1 className={props.theme}>Hello, World!</h1>
+          <p className={`bio ${props.theme}`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             maximus, nulla ut commodo sagittis, sapien dui mattis dui, non
             pulvinar lorem felis nec erat. Aliquam egestas, velit at condimentum
@@ -21,9 +21,17 @@ export const AboutContent = (props) => {
             maximus id, tempor non ipsum
           </p>
         </div>
-        <div>
-          <a href="#work">Projects</a>
-          <div className="arrow">&darr;</div>
+        <div
+          onClick={() =>
+            window.scroll({
+              top: 2 * window.innerHeight,
+              left: 0,
+              behavior: 'smooth',
+            })
+          }
+          className="down-arrow">
+          <p className={props.theme}>Projects</p>
+          <div>&darr;</div>
         </div>
       </div>
       <div>

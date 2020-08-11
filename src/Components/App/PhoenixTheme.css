@@ -1,0 +1,53 @@
+p.phoenix,
+a.phoenix,
+select.phoenix {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1.phoenix,
+h2.phoenix,
+h3.phoenix {
+  font-family: 'Akronim', cursive;
+  color: #f2db2e;
+}
+
+.main-content.phoenix {
+  background-image: linear-gradient(to bottom, #7e6147, #f54b22);
+}
+
+.bio.phoenix {
+  background-color: rgba(245, 185, 34, 0.3);
+}
+
+.navbar-grid.phoenix {
+  background-color: #e7893f;
+}
+
+.navbar-grid.phoenix a {
+  color: #f2db2e;
+}
+
+.menu-label.phoenix {
+  color: #f2db2e;
+}
+
+.menu.phoenix {
+  color: #f2db2e;
+  background-color: #e7893f;
+  border-color: #7e6147;
+  border-width: 0;
+}
+
+.title-box.phoenix {
+  background-color: rgba(126, 97, 71, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.phoenix {
+  background-image: linear-gradient(to bottom, #7e6147, #f54b22);
+}
+
+.about-container h1.phoenix {
+  color: #ffab24;
+}

@@ -1,66 +1,37 @@
 import React, { useEffect } from 'react';
 import './HomeContent.css';
 import { useSpring, animated } from 'react-spring';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 export const HomeContent = (props) => {
-  const [themeStyle, setThemeStyle] = useSpring(() => ({
-    backgroundImage: 'linear-gradient(to bottom, #b4dae1, #99aec5)',
-  }));
-
-  useEffect(() => {
-    switch (props.theme) {
-      case 'kraken':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #6fb1bf, #011526)',
-        });
-        break;
-      case 'vampire':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #4d3c6b, #3c3c3c)',
-        });
-        break;
-      case 'yeti':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #b4dae1, #99aec5)',
-        });
-        break;
-      case 'phoenix':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #7e6147, #f54b22)',
-        });
-        break;
-      case 'griffin':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #734014, #a6780c)',
-        });
-        break;
-      case 'dragon':
-        setThemeStyle({
-          backgroundImage: 'linear-gradient(to bottom, #9f74b8, #61b88a)',
-        });
-        break;
-    }
-  }, [props.theme]);
-
   return (
-    <animated.div
-      className="home-container"
-      id="home"
-      style={{ ...themeStyle }}>
+    <div className={`home-container ${props.theme}`} id="home">
       <div></div>
       <div></div>
       <div></div>
       <div></div>
       <div className="home-content">
-        <div className="title-box">
-          <h1>Boyd Duffie</h1>
-          <h2>Computer Science • University of Florida • 2021</h2>
+        <div className={`title-box ${props.theme}`}>
+          <h1 className={props.theme}>Boyd Duffie</h1>
+          <h2 className={props.theme}>
+            Computer Science • University of Florida • 2021
+          </h2>
         </div>
-        <div className="welcome">
-          <p>Welcome</p>
+        <div
+          className="welcome"
+          onClick={() =>
+            window.scroll({
+              top: window.innerHeight,
+              left: 0,
+              behavior: 'smooth',
+            })
+          }>
+          <FontAwesomeIcon icon={faChevronDown} />
+          <p className={props.theme}>Welcome</p>
         </div>
       </div>
       <div></div>
-    </animated.div>
+    </div>
   );
 };
