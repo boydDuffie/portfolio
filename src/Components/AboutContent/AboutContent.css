@@ -4,6 +4,7 @@
   grid-template-rows: auto;
   grid-template-areas: '. content .';
   height: 100vh;
+  position: relative;
 }
 
 .about-container a {
@@ -52,6 +53,7 @@
   border-radius: 50%;
   opacity: 40%;
   right: 12.5vw;
-  top: 160vh;
+  bottom: 25vh;
+  right: 12.5vw;
   z-index: 5;
 }

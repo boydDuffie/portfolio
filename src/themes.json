@@ -1,0 +1,20 @@
+{
+  "dragon": {
+    "link-color": "#61b88a"
+  },
+  "griffin": {
+    "link-color": "#d9bd7c"
+  },
+  "kraken": {
+    "link-color": "#8c0d2f"
+  },
+  "phoenix": {
+    "link-color": "#f2db2e"
+  },
+  "vampire": {
+    "link-color": "#cc1818"
+  },
+  "yeti": {
+    "link-color": "#f23f2e"
+  }
+}

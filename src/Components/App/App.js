@@ -14,7 +14,7 @@ import './GriffinTheme.css';
 import './DragonTheme.css';
 
 export const App = () => {
-  const [theme, setTheme] = useState('yeti');
+  const [theme, setTheme] = useState('griffin');
 
   return (
     <div className={`page-container ${theme}`}>
