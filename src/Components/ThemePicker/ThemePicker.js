@@ -7,54 +7,12 @@ export const ThemePicker = (props) => {
     props.handleChange(e.target.value);
   };
 
-  const [themeStyle, setThemeStyle] = useSpring(() => ({
-    fontFamily: "'Ubuntu', sans-serif",
-  }));
-
-  useEffect(() => {
-    switch (props.theme) {
-      case 'kraken':
-        setThemeStyle({
-          fontFamily: "'Raleway', sans-serif",
-        });
-        break;
-      case 'vampire':
-        setThemeStyle({
-          fontFamily: "'Montserrat', sans-serif",
-        });
-        break;
-      case 'yeti':
-        setThemeStyle({
-          fontFamily: "'Ubuntu', sans-serif",
-        });
-        break;
-      case 'phoenix':
-        setThemeStyle({
-          fontFamily: "'Ubuntu', sans-serif",
-        });
-        break;
-      case 'griffin':
-        setThemeStyle({
-          fontFamily: "'Roboto', sans-serif",
-        });
-        break;
-      case 'dragon':
-        setThemeStyle({
-          fontFamily: "'Roboto', sans-serif",
-        });
-        break;
-    }
-  }, [props.theme]);
-
   return (
     <div className="themepicker-container">
       <div></div>
       <div className="themepicker-flex-container">
-        <p style={{ ...themeStyle }}>Theme:&nbsp;</p>
-        <animated.select
-          className="menu"
-          onChange={handleChange}
-          style={{ ...themeStyle }}>
+        <p className={`menu-label ${props.theme}`}>Theme:&nbsp;</p>
+        <select className={`menu ${props.theme}`} onChange={handleChange}>
           <option value="kraken">Kraken</option>
           <option value="vampire">Vampire</option>
           <option value="yeti" selected>
@@ -63,7 +21,7 @@ export const ThemePicker = (props) => {
           <option value="phoenix">Phoenix</option>
           <option value="griffin">Griffin</option>
           <option value="dragon">Dragon</option>
-        </animated.select>
+        </select>
         <div className="theme-picker-profile image"></div>
       </div>
     </div>

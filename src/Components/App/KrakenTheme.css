@@ -1,0 +1,53 @@
+p.kraken,
+a.kraken,
+select.kraken {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1.kraken,
+h2.kraken,
+h3.kraken {
+  font-family: 'Metal Mania', cursive;
+  color: #8c0d2f;
+}
+
+.main-content.kraken {
+  background-image: linear-gradient(to bottom, #6fb1bf, #011526);
+}
+
+.bio.kraken {
+  background-color: rgba(156, 217, 217, 0.3);
+}
+
+.navbar-grid.kraken {
+  background-color: #bd5568;
+}
+
+.navbar-grid.kraken a {
+  color: #8c0d2f;
+}
+
+.menu-label.kraken {
+  color: #011526;
+}
+
+.menu.kraken {
+  color: #8c0d2f;
+  background-color: #6fb1bf;
+  border-color: #8c0d2f;
+  border-width: 0;
+}
+
+.title-box.kraken {
+  background-color: rgba(156, 217, 217, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.kraken {
+  background-image: linear-gradient(to bottom, #6fb1bf, #011526);
+}
+
+.title-box.kraken h1 {
+  font-weight: bold;
+}

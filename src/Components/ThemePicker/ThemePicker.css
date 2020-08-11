@@ -5,6 +5,7 @@
   grid-template-areas: '. content';
   position: fixed;
   width: 100vw;
+  z-index: 16;
 }
 
 .themepicker-flex-container {
@@ -17,4 +18,5 @@
 
 .menu {
   font-style: italic;
+  font-weight: 500;
 }

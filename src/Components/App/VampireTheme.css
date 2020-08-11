@@ -1,0 +1,53 @@
+p.vampire,
+a.vampire,
+select.vampire {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1.vampire,
+h2.vampire,
+h3.vampire {
+  font-family: 'Pirata One', cursive;
+  color: #ce3737;
+}
+
+.main-content.vampire {
+  background-image: linear-gradient(to bottom right, #4d3c6b, #3c3c3c);
+}
+
+.bio.vampire {
+  background-color: rgba(244, 67, 54, 0.3);
+}
+
+.navbar-grid.vampire {
+  background-color: #000;
+}
+
+.navbar-grid.vampire a {
+  color: #cc1818;
+}
+
+.menu-label.vampire {
+  color: #fff;
+}
+
+.menu.vampire {
+  color: #cc1818;
+  background-color: #000;
+  border-color: #cc1818;
+  border-width: 0;
+}
+
+.title-box.vampire {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.vampire {
+  background-image: linear-gradient(to bottom, #4d3c6b, #3c3c3c);
+}
+
+.title-box.vampire h1 {
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+p.griffin,
+a.griffin,
+select.griffin {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1.griffin,
+h2.griffin,
+h3.griffin {
+  font-family: 'Germania One', cursive;
+  color: #d9bd7c;
+}
+
+.main-content.griffin {
+  background-image: linear-gradient(to bottom right, #a6780c, #734014);
+}
+
+.bio.griffin {
+  background-color: rgba(54, 128, 121, 0.3);
+}
+
+.navbar-grid.griffin {
+  background-color: #368079;
+}
+
+.navbar-grid.griffin a {
+  color: #d9bd7c;
+}
+
+.menu-label.griffin {
+  color: #d9bd7c;
+}
+
+.menu.griffin {
+  color: #d9bd7c;
+  background-color: #368079;
+  border-color: #0ca66c;
+  border-width: 0;
+}
+
+.title-box.griffin {
+  background-color: rgba(54, 128, 121, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.griffin {
+  background-image: linear-gradient(to bottom, #734014, #a6780c);
+}
+
+.title-box.griffin h1 {
+  font-weight: bold;
+}
+
+.about-content h1 {
+  font-style: italic;
+}

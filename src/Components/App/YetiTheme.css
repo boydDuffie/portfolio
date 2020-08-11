@@ -1,0 +1,57 @@
+p.yeti,
+a.yeti,
+select.yeti {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1.yeti,
+h2.yeti,
+h3.yeti {
+  font-family: 'Bungee', cursive;
+  color: #f23f2e;
+}
+
+.main-content.yeti {
+  background-image: linear-gradient(to bottom right, #b4dae1, #99aec5);
+}
+
+.bio.yeti {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-grid.yeti {
+  background-color: #3b4d72;
+}
+
+.navbar-grid.yeti a {
+  color: #f23f2e;
+}
+
+.menu-label.yeti {
+  color: #fff;
+}
+
+.menu.yeti {
+  color: #f23f2e;
+  background-color: #3b4d72;
+  border-color: #f23f2e;
+  border-width: 0;
+}
+
+.title-box.yeti {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  padding: 0.5vw;
+}
+
+.home-container.yeti {
+  background-image: linear-gradient(to bottom, #b4dae1, #99aec5);
+}
+
+.title-box.yeti h1 {
+  font-weight: bold;
+}
+
+.about-content h1 {
+  font-style: italic;
+}
