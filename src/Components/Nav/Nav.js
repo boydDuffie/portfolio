@@ -7,8 +7,8 @@ export const Nav = (props) => {
   return (
     <div className="navbar-grid">
       <div className="mascots">
-        <img />
-        <img />
+        <div className="mascot-1 image"></div>
+        <div className="mascot-2 image"></div>
       </div>
       <nav className="flex-container">
         <a className="home" href="#home">
