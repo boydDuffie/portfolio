@@ -56,6 +56,32 @@ h3.phoenix {
   color: #ffab24;
 }
 
+.about-content.phoenix h1 {
+  font-size: 22vmin;
+  margin-left: -3vw;
+}
+
 .home-mascot.phoenix {
   background-image: url('../../Mascots/Phoenix.svg');
+}
+
+.title-box.phoenix h1 {
+  font-size: 10vmin;
+}
+
+.title-box.phoenix h2 {
+  font-size: 5vmin;
+}
+
+.theme-picker-profile.phoenix {
+  background-color: rgba(245, 185, 34, 0.7);
+  background-image: url('../../Mascots/Phoenix.svg');
+  width: 40vmin;
+  height: 40vmin;
+  margin: -7vmin 0 0 -13vmin;
+  transform: scaleX(-1);
+}
+
+.theme-picker-profile-crop.phoenix {
+  border: 2px solid #f54b22;
 }

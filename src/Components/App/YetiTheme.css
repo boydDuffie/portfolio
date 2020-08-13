@@ -54,12 +54,31 @@ h3.yeti {
 
 .title-box.yeti h1 {
   font-weight: bold;
+  font-size: 10vmin;
 }
 
-.about-content h1 {
+.about-content.yeti h1 {
+  font-size: 18vmin;
+  margin-left: -3vw;
+}
+
+.about-content.yeti h1 {
   font-style: italic;
 }
 
 .home-mascot.yeti {
   background-image: url('../../Mascots/Yeti.svg');
+}
+
+.theme-picker-profile.yeti {
+  background-color: rgba(242, 63, 46, 0.7);
+  background-image: url('../../Mascots/Yeti.svg');
+  width: 27vmin;
+  height: 27vmin;
+  margin: -1vmin 0 0 -10.5vmin;
+  transform: scaleX(-1);
+}
+
+.theme-picker-profile-crop.yeti {
+  border: 2px solid #3b4d72;
 }

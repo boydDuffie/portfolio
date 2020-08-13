@@ -54,20 +54,34 @@ h3.griffin {
 
 .title-box.griffin h1 {
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 10vmin;
   margin: 0;
 }
 
 .title-box.griffin h2 {
-  font-size: 2vw;
+  font-size: 3.5vmin;
   margin: 0;
 }
 
-.about-content h1 {
+.about-content.griffin h1 {
   font-style: italic;
+  font-size: 20vmin;
+  margin-left: -3vw;
 }
 
 .home-mascot.griffin {
   background-image: url('../../Mascots/Griffin.svg');
   left: 5vw;
+}
+
+.theme-picker-profile.griffin {
+  background-color: rgba(54, 128, 121, 0.7);
+  background-image: url('../../Mascots/Griffin.svg');
+  width: 30vmin;
+  height: 30vmin;
+  margin: -4.5vmin 0 0 0;
+}
+
+.theme-picker-profile-crop.griffin {
+  border: 2px solid #d9bd7c;
 }

@@ -58,8 +58,26 @@ h3.dragon {
 
 .title-box.dragon h1 {
   font-weight: bold;
+  font-size: 10vmin;
+}
+
+.about-content.dragon h1 {
+  font-size: 15vmin;
+  margin-left: -3vw;
 }
 
 .home-mascot.dragon {
   background-image: url('../../Mascots/Dragon.png');
+}
+
+.theme-picker-profile.dragon {
+  background-color: rgba(71, 87, 103, 0.7);
+  background-image: url('../../Mascots/Dragon.png');
+  width: 40vmin;
+  height: 40vmin;
+  margin: -16vmin -5vmin 0 0;
+}
+
+.theme-picker-profile-crop.dragon {
+  border: 2px solid #61b88a;
 }

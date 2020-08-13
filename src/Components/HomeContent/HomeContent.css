@@ -34,10 +34,15 @@
   box-shadow: 0 10px 10px -10px;
 }
 
+.title-box h1,
+.title-box h2 {
+  margin: 0;
+}
+
 .welcome {
   text-align: center;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 2.5vmin;
   font-weight: 300;
 }
 

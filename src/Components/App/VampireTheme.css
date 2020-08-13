@@ -52,6 +52,29 @@ h3.vampire {
   background-image: linear-gradient(to bottom, #4d3c6b, #3c3c3c);
 }
 
+.about-content.vampire h1 {
+  font-size: 22vmin;
+  margin-left: -3vw;
+  line-height: 1;
+}
+
 .title-box.vampire h1 {
   font-weight: bold;
+  font-size: 12vmin;
+}
+
+.title-box.vampire h2 {
+  font-size: 5vmin;
+}
+
+.theme-picker-profile.vampire {
+  background-color: rgba(244, 67, 54, 0.7);
+  background-image: url('../../Mascots/Phoenix.svg');
+  width: 40vmin;
+  height: 40vmin;
+  margin: -7vmin 0 0 -17vmin;
+}
+
+.theme-picker-profile-crop.vampire {
+  border: 2px solid #000;
 }

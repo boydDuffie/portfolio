@@ -1,25 +1,14 @@
 .navbar-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: 'mascots . links';
+  grid-template-areas: 'links .';
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  height: 12.5vh;
+  height: 15vmin;
   z-index: 15;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-}
-
-.mascots {
-  grid-area: mascots;
-}
-
-.mascot-1 {
-}
-
-.mascot-2 {
-  transform: rotateZ(180deg);
 }
 
 .nav-flex-container {
@@ -32,5 +21,5 @@
 
 .navbar-grid a {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 3vmin;
 }

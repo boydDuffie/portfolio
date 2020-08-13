@@ -39,6 +39,8 @@
 .down-arrow {
   text-align: center;
   color: #fff;
+  font-size: 2.5vmin;
+  font-weight: 300;
 }
 
 .down-arrow:hover {

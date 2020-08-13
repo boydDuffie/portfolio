@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AboutContent.css';
+import { useSpring, animated } from 'react-spring';
 
 export const AboutContent = (props) => {
+  const [hovering, setHover] = useState(false);
+  const downSpring = useSpring({
+    transform: hovering ? 'scale(1.1)' : 'scale(1)',
+    textShadow: hovering
+      ? '0px 5px 5px rgba(0,0,0,0.5)'
+      : '0px 0px 0px rgba(0,0,0,0)',
+  });
+
   return (
     <div className={`about-container ${props.theme}`} id="about">
       <div></div>
-      <div className="about-content">
+      <div className={`about-content ${props.theme}`}>
         <div>
           <h1 className={props.theme}>Hello, World!</h1>
           <p className={`bio ${props.theme}`}>
@@ -29,8 +38,12 @@ export const AboutContent = (props) => {
               behavior: 'smooth',
             })
           }
+          onMouseOver={() => setHover(true)}
+          onMouseOut={() => setHover(false)}
           className="down-arrow">
-          <p className={props.theme}>Projects</p>
+          <animated.p style={{ ...downSpring }} className={props.theme}>
+            Projects
+          </animated.p>
           <div>&darr;</div>
         </div>
       </div>

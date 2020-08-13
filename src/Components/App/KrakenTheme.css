@@ -52,6 +52,24 @@ h3.kraken {
   background-image: linear-gradient(to bottom, #6fb1bf, #011526);
 }
 
+.about-content.kraken h1 {
+  font-size: 20vmin;
+  margin-left: -3vw;
+}
+
 .title-box.kraken h1 {
   font-weight: bold;
+  font-size: 10vmin;
+}
+
+.theme-picker-profile.kraken {
+  background-color: rgba(189, 85, 104, 0.7);
+  background-image: url('../../Mascots/Dragon.png');
+  width: 40vmin;
+  height: 40vmin;
+  margin: -16vmin -5vmin 0 0;
+}
+
+.theme-picker-profile-crop.kraken {
+  border: 2px solid #011526;
 }
